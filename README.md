@@ -1,9 +1,21 @@
-﻿# [P03](https://github.com/OS-Q/P03)
+﻿# [P133](https://github.com/OS-Q/P133)
 
 [![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-### [简介](https://github.com/OS-Q/P03/wiki)
+[![Build Status](https://github.com/OS-Q/P133/workflows/CI/badge.svg)](https://github.com/OS-Q/P133/actions/workflows/CI.yml)
+[![Build Status](https://circleci.com/gh/OS-Q/P133.svg?style=svg)](https://circleci.com/gh/OS-Q/P133)
+[![Build Status](https://cloud.drone.io/api/badges/OS-Q/P133/status.svg)](https://cloud.drone.io/OS-Q/P133)
 
-[P03](https://github.com/OS-Q/P03) 基于[PlatformIO](https://github.com/platformio/platformio-core) 框架，用于[STM8L](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm8-8-bit-mcus/stm8l-series.html)开发
+### [简介](https://github.com/OS-Q/P133/wiki)
 
-### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)
+[P133](https://github.com/OS-Q/P133) 用于 [STM8L1](https://www.st.com/zh/microcontrollers-microprocessors/stm8l151-152.html) 开发
+
+
+| STM8L1型号 | TIM | UART | ADC | PWM | ROM  |  RAM | EEROM | RTC | DAC | CMP | OPA |
+| ---------- | --- | ---- | --- | --- | ---- | ---- | ----- | --- | --- | --- | --- |
+| STM8L151F3 | √   | √    | √   | √   |   8K |   1K |  256B | √  | X   | X   | X  |
+| STM8L151C6 | √   | √    | √   | √   |  32K |   2K |  256B | √  | X   | X   | X  |
+| STM8L152R8 | √   | √    | √   | √   |  64K |   2K |  256B | √  | X   | X   | X  |
+
+
+#### [源圈OS-Q: 起点决定收益](http://www.OS-Q.com)

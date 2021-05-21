@@ -1,0 +1,37 @@
+{
+  "build": {
+    "core": "sduino",
+    "extra_flags": " -DSTM8L152",
+    "f_cpu": "16000000L",
+    "cpu": "stm8",
+    "mcu": "stm8l152r8t6",
+    "variant": "stm8l152r8"
+  },
+  "debug": {
+    "svd_path": "STM8L152R8.svd",
+    "openocd_target": "stm8l",
+    "default_tools": [
+      "stlinkv2"
+    ],
+    "onboard_tools": [
+      "stlinkv2"
+    ]
+  },
+  "frameworks": [
+    "arduino",
+    "spl"
+  ],
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 32768,
+    "protocol": "stlinkv2",
+    "protocols": [
+      "serial",
+      "stlinkv21",
+      "stlinkv2"
+    ]
+  },
+  "name": "STM8L152R8",
+  "url": "https://www.OS-Q.com/",
+  "vendor": "OS-Q"
+}
